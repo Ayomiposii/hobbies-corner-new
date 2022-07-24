@@ -1,0 +1,42 @@
+body{
+    margin: 3px;
+    padding: 0;
+    background: rgba(255, 210, 237, 0.911);
+}
+.image {
+    width:1250px;
+}
+.image1{
+   width: 623px;
+   height: 300px;
+}
+.images {
+    width: 623px;
+    height: 200px;
+}
+.head {
+  background: linear-gradient(to bottom, rgb(173, 83, 137), rgb(179, 37, 255));
+  padding-top: 25px;
+  padding-bottom: 2PX ;
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px rgba(167, 220, 225, 0.237) ;
+}
+
+@media (max-width:750px) {
+    img {
+    max-width: 100%;    
+}
+}
+.page_head {
+    text-align: center;
+    margin: 50px;
+    padding: 20px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    font-family: 'PT Mono', sans-serif;
+    transition: 150ms all ease-in-out;
+}
+.page_head:hover {
+    color: white;
+    background: blue;
+}
