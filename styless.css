@@ -1,10 +1,16 @@
 body{
-    margin: 3px;
     padding: 0;
     background: rgba(255, 210, 237, 0.911);
 }
+img {
+    border-radius: 10px;
+}
 .image {
     width:1250px;
+}
+.image_im {
+     width:1250px;
+     margin-top: 10px;
 }
 .image1{
    width: 623px;
